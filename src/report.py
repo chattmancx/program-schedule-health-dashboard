@@ -112,6 +112,7 @@ def _save_variance_chart(
     chart_rag: list[str] | None = None,
     date_from=None,
     date_to=None,
+    chart_name: str = "variance_chart",
 ):
     if chart_rag is None:
         chart_rag = _DEFAULT_CHART_RAG
@@ -156,7 +157,7 @@ def _save_variance_chart(
                     f"+{val:.0f}d", va="center", fontsize=8)
 
     plt.tight_layout()
-    path = out_dir / "variance_chart.png"
+    path = out_dir / f"{chart_name}.png"
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  Saved {path}  ({n} tasks)")
@@ -169,6 +170,7 @@ def save_report(
     chart_rag: list[str] | None = None,
     date_from=None,
     date_to=None,
+    chart_name: str = "variance_chart",
 ):
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -176,4 +178,5 @@ def save_report(
     rag_df = build_rag_table(df, as_of)
     _print_summary(rag_df)
     _save_rag_csv(rag_df, out_dir)
-    _save_variance_chart(rag_df, out_dir, chart_rag=chart_rag, date_from=date_from, date_to=date_to)
+    _save_variance_chart(rag_df, out_dir, chart_rag=chart_rag, date_from=date_from,
+                         date_to=date_to, chart_name=chart_name)

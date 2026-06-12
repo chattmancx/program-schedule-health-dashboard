@@ -66,6 +66,9 @@ def main():
                    help="Chart: only tasks with finish >= this date (YYYY-MM-DD).")
     p.add_argument("--date-to", default=None,
                    help="Chart: only tasks with finish <= this date (YYYY-MM-DD).")
+    p.add_argument("--chart-name", default="variance_chart",
+                   help="Output filename stem for the chart PNG (no extension). "
+                        "Default: variance_chart.")
     args = p.parse_args()
 
     as_of = date.fromisoformat(args.as_of)
@@ -84,7 +87,8 @@ def main():
           f"{df['is_milestone'].sum()} milestones)")
 
     save_report(df, as_of, Path(args.out_dir),
-                chart_rag=chart_rag, date_from=date_from, date_to=date_to)
+                chart_rag=chart_rag, date_from=date_from, date_to=date_to,
+                chart_name=args.chart_name)
 
 
 if __name__ == "__main__":
