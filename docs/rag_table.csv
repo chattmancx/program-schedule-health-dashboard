@@ -1,0 +1,58 @@
+uid,name,RAG,pct_complete,finish,baseline_finish,slip_days,is_critical,is_milestone,total_slack_days
+3,Kickoff & charter approval,Green,100.0,2025-03-10 17:00:00,2025-03-10 17:00:00,0.0,True,False,0.0
+4,Stakeholder identification,Green,100.0,2025-03-20 17:00:00,2025-03-20 17:00:00,0.0,True,False,0.0
+5,Requirements elicitation,Green,100.0,2025-04-10 17:00:00,2025-04-10 17:00:00,0.0,True,False,0.0
+6,Requirements review,Green,100.0,2025-04-22 17:00:00,2025-04-17 17:00:00,5.0,True,False,0.0
+7,System Requirements Baseline,Green,100.0,2025-04-22 17:00:00,2025-04-22 17:00:00,0.0,True,True,0.0
+8,Concept of operations draft,Green,100.0,2025-05-06 17:00:00,2025-05-06 17:00:00,0.0,True,False,0.0
+9,CONOPS review & approval,Green,100.0,2025-05-13 17:00:00,2025-05-13 17:00:00,0.0,True,False,0.0
+10,Interface requirements capture,Red,95.0,2025-05-30 17:00:00,2025-05-23 17:00:00,7.0,True,False,0.0
+11,Trade study initiation,Green,90.0,2025-06-13 17:00:00,2025-06-13 17:00:00,0.0,True,False,0.0
+13,Preliminary design activities,Amber,85.0,2025-07-11 17:00:00,2025-07-11 17:00:00,0.0,True,False,0.0
+14,PDR preparation,Red,80.0,2025-08-01 17:00:00,2025-07-23 17:00:00,9.0,True,False,0.0
+15,Preliminary Design Review,Red,0.0,2025-08-12 17:00:00,2025-08-01 17:00:00,11.0,True,True,0.0
+16,Design updates post-PDR,Amber,60.0,2025-08-19 17:00:00,2025-08-19 17:00:00,0.0,True,False,0.0
+17,Detailed design - subsystem A,Amber,55.0,2025-09-09 17:00:00,2025-09-09 17:00:00,0.0,False,False,2.0
+18,Detailed design - subsystem B,Amber,50.0,2025-09-30 17:00:00,2025-09-30 17:00:00,0.0,False,False,1.0
+19,Interface control documents,Red,45.0,2025-10-20 17:00:00,2025-10-14 17:00:00,6.0,True,False,0.0
+20,CDR preparation,Amber,30.0,2025-10-30 17:00:00,2025-10-30 17:00:00,0.0,False,False,3.0
+21,Critical Design Review,Red,0.0,2025-10-30 17:00:00,2025-10-30 17:00:00,0.0,True,True,0.0
+22,Design freeze,Amber,0.0,2025-11-04 17:00:00,2025-11-04 17:00:00,0.0,False,False,4.0
+24,RFP development,Green,100.0,2025-11-18 17:00:00,2025-11-18 17:00:00,0.0,True,False,0.0
+25,Vendor solicitation,Green,100.0,2025-12-09 17:00:00,2025-12-09 17:00:00,0.0,True,False,0.0
+26,Proposal evaluation,Red,90.0,2026-01-02 17:00:00,2025-12-23 17:00:00,10.0,True,False,0.0
+27,Contract award,Red,0.0,2026-01-02 17:00:00,2026-01-02 17:00:00,0.0,True,True,0.0
+28,Vendor kickoff,Amber,0.0,2026-01-06 17:00:00,2026-01-06 17:00:00,0.0,True,False,0.0
+29,Long-lead item procurement,Red,15.0,2026-03-05 17:00:00,2026-02-17 17:00:00,16.0,True,False,0.0
+30,Hardware delivery - batch 1,Red,0.0,2026-03-05 17:00:00,2026-03-05 17:00:00,0.0,True,True,0.0
+31,Hardware delivery - batch 2,Red,0.0,2026-03-05 17:00:00,2026-03-05 17:00:00,0.0,False,True,0.0
+32,Receiving inspection,Amber,0.0,2026-03-12 17:00:00,2026-03-12 17:00:00,0.0,False,False,1.5
+33,Parts kitting,Amber,0.0,2026-03-24 17:00:00,2026-03-24 17:00:00,0.0,True,False,0.0
+35,Integration planning,Green,100.0,2026-04-07 17:00:00,2026-04-07 17:00:00,0.0,True,False,0.0
+36,Lab setup & calibration,Amber,80.0,2026-04-17 17:00:00,2026-04-17 17:00:00,0.0,True,False,0.0
+37,Subsystem A integration,Red,60.0,2026-05-18 17:00:00,2026-05-08 17:00:00,10.0,True,False,0.0
+38,Subsystem B integration,Red,40.0,2026-06-19 17:00:00,2026-06-08 17:00:00,11.0,True,False,0.0
+39,System-level integration,Amber,20.0,2026-07-17 17:00:00,2026-07-17 17:00:00,0.0,False,False,1.0
+40,Integration complete,Green,0.0,2026-07-17 17:00:00,2026-07-17 17:00:00,0.0,True,True,0.0
+41,Unit test - subsystem A,Green,50.0,2026-07-31 17:00:00,2026-07-31 17:00:00,0.0,True,False,0.0
+42,Unit test - subsystem B,Red,30.0,2026-09-04 17:00:00,2026-08-14 17:00:00,21.0,True,False,0.0
+43,System functional test,Amber,10.0,2026-09-25 17:00:00,2026-09-25 17:00:00,0.0,False,False,2.0
+44,Test readiness review,Green,0.0,2026-09-25 17:00:00,2026-09-25 17:00:00,0.0,True,True,0.0
+45,Performance verification,Green,0.0,2026-10-13 17:00:00,2026-10-13 17:00:00,0.0,True,False,0.0
+46,Test report draft,Amber,0.0,2026-10-23 17:00:00,2026-10-23 17:00:00,0.0,False,False,3.0
+48,OT&E planning,Green,100.0,2026-11-06 17:00:00,2026-11-06 17:00:00,0.0,True,False,0.0
+49,OT&E site preparation,Green,60.0,2026-11-18 17:00:00,2026-11-18 17:00:00,0.0,True,False,0.0
+50,OT&E execution phase 1,Red,20.0,2026-12-16 17:00:00,2026-12-09 17:00:00,7.0,True,False,0.0
+51,OT&E execution phase 2,Green,0.0,2027-01-06 17:00:00,2027-01-06 17:00:00,0.0,True,False,0.0
+52,Data reduction & analysis,Amber,0.0,2027-01-20 17:00:00,2027-01-20 17:00:00,0.0,False,False,4.0
+53,OT&E report,Green,0.0,2027-02-01 17:00:00,2027-02-01 17:00:00,0.0,True,False,0.0
+54,OT&E complete,Green,0.0,2027-02-01 17:00:00,2027-02-01 17:00:00,0.0,True,True,0.0
+55,Follow-on deficiency resolution,Green,0.0,2027-02-15 17:00:00,2027-02-15 17:00:00,0.0,True,False,0.0
+56,Test closure review,Green,0.0,2027-02-18 17:00:00,2027-02-18 17:00:00,0.0,True,False,0.0
+58,Delivery preparation,Green,0.0,2027-03-02 17:00:00,2027-03-02 17:00:00,0.0,True,False,0.0
+59,Final acceptance test,Green,0.0,2027-03-09 17:00:00,2027-03-09 17:00:00,0.0,True,False,0.0
+60,System delivery,Green,0.0,2027-03-09 17:00:00,2027-03-09 17:00:00,0.0,True,True,0.0
+61,Documentation handoff,Green,0.0,2027-03-19 17:00:00,2027-03-19 17:00:00,0.0,True,False,0.0
+62,Lessons learned workshop,Green,0.0,2027-03-24 17:00:00,2027-03-24 17:00:00,0.0,True,False,0.0
+63,Contract closeout,Green,0.0,2027-03-31 17:00:00,2027-03-31 17:00:00,0.0,True,False,0.0
+64,Program closeout,Red,0.0,2027-03-31 17:00:00,2027-03-31 17:00:00,0.0,True,True,0.0
